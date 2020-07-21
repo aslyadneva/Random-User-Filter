@@ -1,0 +1,28 @@
+.FormButton {
+  background-color: #ffe6cc;
+  border: 1px solid #dda82b;
+}
+
+.Card {
+  background-color: #e1d5e7;
+  border: 1px solid #9b78aa;
+}
+
+.Card p {
+  text-align: center;
+}
+
+.Nested-label {
+  text-transform: capitalize;
+}
+
+.FilterBox {
+  @media (min-width: 992px) {
+    width: 35%;
+  }
+}
+
+input[type="checkbox"] {
+  width: 40px !important;
+  height: 40px !important;
+}
